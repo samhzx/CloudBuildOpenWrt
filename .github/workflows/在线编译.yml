@@ -181,5 +181,5 @@ jobs:
     - name: 上传固件
       uses: actions/upload-artifact@master
       with:
-        name: OpenWrt firmware
+        name: OpenWrtFirmware
         path: ./openwrt/artifact/
